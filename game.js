@@ -45,7 +45,7 @@ function showAnimation(color,i){
   setTimeout(function(){
     $("#"+ color).fadeOut(100).fadeIn(100);
     playSound(color);
-  },1200 * i)
+  },1000 * i)
 }
 
 function CheckAnswer(currentLevel){
